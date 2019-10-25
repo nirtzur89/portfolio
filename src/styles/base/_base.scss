@@ -1,0 +1,27 @@
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.active-nav {
+  font-weight: bold;
+}
+
+.general {
+  background: url('/images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  color: white;
+}
+
+.base-component {
+  width: 90vw;
+  font-family: 'Baloo Bhai', cursive;
+  margin: auto;
+}
