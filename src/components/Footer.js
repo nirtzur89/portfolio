@@ -5,7 +5,7 @@ const Footer = () => (
   <div className='footer'>
     <h6 className='item'>all rights reserved - Nirtzur 2019</h6>
     <h6 className='item'>
-      <Link to='/info'>contact</Link>
+      <Link to='/contact'>contact</Link>
     </h6>
   </div>
 );

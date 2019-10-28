@@ -8,13 +8,56 @@ const Projects = () => (
       <h2 className='caption'>My Projects:</h2>
       <div className='column project-col'>
         <div className='item item-text col-sm'>
-          <h1>project 1</h1>
+          <h1>
+            <u>Club Q</u>
+          </h1>
+          <div>
+            <h3>
+              A React App for updating and reciving live updates on queues in
+              Berlin's clubs.
+            </h3>
+          </div>
+          <a className='cancela' href='https://clubq.herokuapp.com/'>
+            <img
+              src={require('../images/clubq.png')}
+              className='d-block w-100'
+              alt='blabla'
+            />
+          </a>
         </div>
         <div className='item item-text col-sm'>
-          <h1>project 2</h1>
+          <h1>
+            <u>20 4 U</u>
+          </h1>
+          <div>
+            <h3>
+              An App using the Spotify API, for music lovers who like to explore
+              new sounds.
+            </h3>
+          </div>
+          <a className='cancela' href='https://twenty4you.herokuapp.com/'>
+            <img
+              src={require('../images/204u.png')}
+              className='d-block w-100'
+              alt='blabla'
+            />
+          </a>
         </div>
+
         <div className='item item-text col-sm'>
-          <h1>project 3</h1>
+          <h1>
+            <u>More Projects:</u>
+          </h1>
+          <div>
+            <h3>Check out my GitHub repository for more of my projects...</h3>
+          </div>
+          <a className='cancela' href='https://github.com/nirtzur89'>
+            <img
+              src={require('../images/more.jpg')}
+              className='d-block w-100'
+              alt='blabla'
+            />
+          </a>
         </div>
       </div>
       <div
@@ -72,10 +115,14 @@ const Projects = () => (
               className='d-block w-100'
               alt='blabla'
             />
-            <div className='carousel-caption d-none d-md-block car-div'>
-              <h1>Explore more of my projects</h1>
-              <h3>From along the Bootcamp and every day since...</h3>
-            </div>
+            <a href='https://github.com/nirtzur89'>
+              <div className='carousel-caption d-none d-md-block car-div'>
+                <h1>More Projects:</h1>
+                <h3>
+                  Check out my GitHub repository for more of my projects...
+                </h3>
+              </div>
+            </a>
           </div>
           <a
             className='carousel-control-prev'

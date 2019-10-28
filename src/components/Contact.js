@@ -4,23 +4,21 @@ import { height } from 'window-size';
 
 const Contact = () => (
   <div className='base-component'>
-    <div className='container-fluid dash'>
-      =<h1>About Me:</h1>
+    <div className='container-fluid dash item-text'>
+      <h1>Contact Me:</h1>
       <hr />
-      <h4>
-        My name is Nir Tzur, I'm 30 years old. <br />
-        In 2015 I've moved from Israel to work in Germany and ended up falling
-        in love with Berlin. <br />
-        After deciding I want to keep living here, I've began the journey of a
-        career change.
-      </h4>
-      <h4>
-        thats when I've decided to go back to my high-school hobby and joined a
-        coding bootcamp <br />
-        at Ironhack. <br /> Now, after succecfully completing the course and
-        building some awesome apps,
+      <h4 className='spacing'>
+        If you've made it all the way here,
         <br />
-        I'm ready to start a new and exciting career as a developer.
+        I must have done something right (or terribly wrong).
+        <br />
+      </h4>
+      <h4 className='spacing'>
+        To let me know what it was, or even if you just need to talk about the
+        weather, <br />
+        find me on my E-mail: <u>Nirtzur89@gmail.com</u>
+        <br />
+        or on my phone: +49 (0) 173-634-9808
       </h4>
     </div>
   </div>

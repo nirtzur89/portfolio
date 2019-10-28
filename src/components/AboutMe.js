@@ -26,12 +26,40 @@ const AboutMe = () => (
             I'm ready to start a new and exciting career as a developer.
           </h4>
         </div>
+
         <div className='item item-text col-sm'>
           <h1>My stack:</h1>
           <hr />
-          <h2> A Full-Stack Web-Developer</h2>
-          <h4 className='ultra'>Berlin | Germany</h4>
-          <div className='container-fluid social'></div>
+
+          <div className='container-fluid'>
+            <div className='row'>
+              <i class='fab fa-js fa-3x item'>
+                <br />
+                <h5>
+                  JavaScript <br /> (ES6)
+                </h5>
+              </i>
+              <i class='fab fa-html5 fa-3x item'>
+                <br />
+                <h5>HTML 5</h5>
+              </i>
+              <i class='fab fa-css3-alt fa-3x item'>
+                <br />
+                <h5>CSS 3</h5>
+              </i>
+            </div>
+            <br />
+            <div className='row'>
+              <i class='fab fa-react fa-3x item'>
+                <br />
+                <h5> React</h5>
+              </i>
+              <i class='fab fa-node fa-3x item'>
+                <br />
+                <h5>Node.js</h5>
+              </i>
+            </div>
+          </div>
         </div>
       </div>
     </div>
