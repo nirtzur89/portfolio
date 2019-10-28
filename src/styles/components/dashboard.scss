@@ -1,5 +1,5 @@
 .dash {
-  background: fade-out($color: $purp, $amount: 0.2);
+  background: fade-out($color: $purp, $amount: 0.15);
   color: $light;
   border-radius: 2%;
   padding: 5%;
@@ -19,6 +19,7 @@
 
 .item-text {
   text-align: center;
+  color: $light;
 }
 
 .img {
@@ -34,3 +35,25 @@
   width: 50%;
   margin-top: 10%;
 }
+
+.space {
+  justify-content: space-between;
+  align-self: center;
+  margin: auto;
+  padding: 0 30%;
+}
+
+.fab:hover {
+  color: black;
+}
+
+// a {
+//   color: inhe
+//   text-decoration: none;
+// }
+
+// a:hover {
+//   color: #00a0c6;
+//   text-decoration: none;
+//   cursor: pointer;
+// }

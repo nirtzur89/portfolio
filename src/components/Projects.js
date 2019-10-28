@@ -5,6 +5,7 @@ import { height } from 'window-size';
 const Projects = () => (
   <div className='base-component'>
     <div className='container-fluid dash'>
+      <h2 className='caption'>My Projects:</h2>
       <div
         id='carouselExampleCaptions'
         className='carousel slide'
@@ -26,39 +27,43 @@ const Projects = () => (
               className='d-block w-100'
               alt='blabla'
             />
-            <div className='carousel-caption d-none d-md-block'>
-              <h2>Club Q</h2>
-              <h4>
-                A React App for updating and reciving live updates on queues in
-                Berlin's clubs.
-              </h4>
-            </div>
+            <a href='https://clubq.herokuapp.com/'>
+              <div className='carousel-caption d-none d-md-block car-div'>
+                <h1>Club Q</h1>
+                <h3>
+                  A React App for updating and reciving live updates on queues
+                  in Berlin's clubs.
+                </h3>
+              </div>
+            </a>
           </div>
 
           <div className='carousel-item'>
             <img
-              src={require('../images/me.jpg')}
+              src={require('../images/204u.png')}
               className='d-block w-100'
               alt='blabla'
             />
-            <div className='carousel-caption d-none d-md-block'>
-              <h5>20 4 U</h5>
-              <p>
-                An App using the Spotify API, for music lovers who like to
-                explore new sounds
-              </p>
-            </div>
+            <a href='https://twenty4you.herokuapp.com/'>
+              <div className='carousel-caption d-none d-md-block car-div'>
+                <h1>20 4 U</h1>
+                <h3>
+                  An App using the Spotify API, for music lovers who like to
+                  explore new sounds.
+                </h3>
+              </div>
+            </a>
           </div>
 
           <div className='carousel-item'>
             <img
-              src={require('../images/me.jpg')}
+              src={require('../images/more.jpg')}
               className='d-block w-100'
               alt='blabla'
             />
-            <div className='carousel-caption d-none d-md-block'>
-              <h5>Explore more of my projects</h5>
-              <p>From along the Bootcamp and every day since...</p>
+            <div className='carousel-caption d-none d-md-block car-div'>
+              <h1>Explore more of my projects</h1>
+              <h3>From along the Bootcamp and every day since...</h3>
             </div>
           </div>
           <a

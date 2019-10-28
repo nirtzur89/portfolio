@@ -20,10 +20,16 @@ const Dashboard = () => (
           <h2> A Full-Stack Web-Developer</h2>
           <h4 className='ultra'>Berlin | Germany</h4>
           <div className='container-fluid social'>
-            <div className='row'>
-              <h5 className='col-sm'>Link</h5>
-              <h5 className='col-sm'>git</h5>
-              <h5 className='col-sm'>em</h5>
+            <div className='row space'>
+              <a
+                className='cancela'
+                href='https://www.linkedin.com/in/nirtzur89/'
+              >
+                <i className='fab fa-linkedin fa-3x'></i>
+              </a>
+              <a className='cancela' href='https://github.com/nirtzur89'>
+                <i className='fab fa-github fa-3x'></i>
+              </a>
             </div>
           </div>
         </div>
