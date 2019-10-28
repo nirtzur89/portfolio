@@ -6,9 +6,20 @@ const Projects = () => (
   <div className='base-component'>
     <div className='container-fluid dash'>
       <h2 className='caption'>My Projects:</h2>
+      <div className='column project-col'>
+        <div className='item item-text col-sm'>
+          <h1>project 1</h1>
+        </div>
+        <div className='item item-text col-sm'>
+          <h1>project 2</h1>
+        </div>
+        <div className='item item-text col-sm'>
+          <h1>project 3</h1>
+        </div>
+      </div>
       <div
         id='carouselExampleCaptions'
-        className='carousel slide'
+        className='carousel slide carodisplay'
         data-ride='carousel'
       >
         <ol className='carousel-indicators'>

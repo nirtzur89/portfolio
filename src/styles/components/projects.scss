@@ -15,3 +15,14 @@
 .car-div:hover {
   background: fade-out($color: black, $amount: 0.1);
 }
+
+@media (max-width: 800px) {
+  .carodisplay {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  .project-col {
+    display: none;
+  }
+}
