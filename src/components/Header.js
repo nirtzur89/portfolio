@@ -28,21 +28,21 @@ const Header = () => (
           Home
         </NavLink>
         <NavLink
-          to='/'
+          to='/about'
           className='nav-item nav-link'
           activeClassName='active-nav'
         >
           About Me
         </NavLink>
         <NavLink
-          to='/'
+          to='/projects'
           className='nav-item nav-link'
           activeClassName='active-nav'
         >
           Projects
         </NavLink>
         <NavLink
-          to='/'
+          to='/contact'
           className='nav-item nav-link'
           activeClassName='active-nav'
         >

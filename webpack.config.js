@@ -25,6 +25,17 @@ module.exports = env => {
             { loader: 'css-loader', options: { sourceMap: true } },
             { loader: 'sass-loader', options: { sourceMap: true } }
           ]
+        },
+        {
+          test: /\.(jpe?g|gif|png|svg)$/i,
+          use: [
+            {
+              loader: 'url-loader',
+              options: {
+                limit: 10000
+              }
+            }
+          ]
         }
       ]
     },

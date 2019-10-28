@@ -1,0 +1,36 @@
+.dash {
+  background: fade-out($color: $purp, $amount: 0.2);
+  color: $light;
+  border-radius: 2%;
+  padding: 5%;
+  height: 110%;
+  width: 90vw;
+}
+
+.item {
+  margin: auto;
+}
+
+@media (max-width: 900px) {
+  .item {
+    margin-top: 15%;
+  }
+}
+
+.item-text {
+  text-align: center;
+}
+
+.img {
+  margin-left: 7%;
+  border-radius: 10%;
+}
+
+.ultra {
+  color: $ultra-light;
+}
+
+.social {
+  width: 50%;
+  margin-top: 10%;
+}

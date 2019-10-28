@@ -1,0 +1,18 @@
+.footer {
+  background-color: $light;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 2rem;
+  width: 100vw;
+  overflow: hidden;
+  align-items: center;
+
+  .item {
+    font-size: 1rem;
+    margin: auto;
+    color: $dark;
+  }
+}
