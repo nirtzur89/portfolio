@@ -26,11 +26,9 @@ const AboutMe = () => (
             I'm ready to start a new and exciting career as a developer.
           </h4>
         </div>
-
         <div className='item item-text col-sm'>
           <h1>My stack:</h1>
           <hr />
-
           <div className='container-fluid'>
             <div className='row'>
               <i class='fab fa-js fa-3x item'>
@@ -65,5 +63,4 @@ const AboutMe = () => (
     </div>
   </div>
 );
-
 export default AboutMe;
